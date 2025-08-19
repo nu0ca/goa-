@@ -1,3 +1,103 @@
 <!--no homework-->
 <!--მოგვეცით ჯგუფური სამუშაო-->
 <!-- davaleba davweret-->
+
+ #ბანკში შესვლა
+print("Welcome to GOA Bank!")
+users_choice = input("Have you used our bank before? (yes/no): ")
+if users_choice == 'yes':
+    Pin = 1234
+else:
+    Pin = int(input("Create your pin code(4 digits. only use numbers): "))
+    print("Your pin code has been created successfully.")
+
+tries = 3
+while tries > 0:
+    Pin1= int(input("Enter your PIN: "))
+    if Pin1 == Pin:
+        break
+    else:
+        tries = tries - 1
+        print("Pin code incorrect. "+ str(tries) + " " + "tries left.")
+    print( "Access denied. Please try again later.")
+print("")
+
+#account
+print("choose")
+print("1- login")
+print("2- registration")
+choice_1=int(input("Choose: "))
+default_password="GOA"
+if choice_1==1:
+    user_name_1=input("Enter your username: ")
+    while True:
+        default_password="GOA"
+        default_password_1=input("Enter your password: ")
+        if default_password_1==default_password:
+            print("Welcome!")
+            break
+        else:
+            print("password is incorrect")
+elif choice_1==2:
+    input("Press Enter to start registration:")
+    print("Registration Form:")
+
+#მომხმარებლის მონაცემების შეყვანა
+    first_name = input("Enter your first name: ")
+    last_name = input("Enter your last name: ")
+    user_id = input("Enter your ID: ")
+    user_name=input("enter your username: ")
+    #პაროლის შემოწმება while ციკლით
+    while True:
+        password = input("create your password: ")
+        confirm_password = input("Repeat password: ")
+
+    #თუ პაროლები ემთხვევა ციკლი შეწყდება
+        if password == confirm_password:
+            print("Password saved successfully!")
+            break  
+        else:
+            print("Passwords do not match, try again.")
+    print("login")
+
+    user_name_2=input("enter your username: ")
+    password_2=input("enter your password: ")
+    if user_name_2=="" or password_2=="":
+        print("input fields should not be empty")
+    elif user_name_2!=user_name or password_2!=password:
+        print("try again")
+    else:
+        #სტატუსის არჩევა
+        print("Choose your status:")
+        print("1 - Pupil")
+        print("2 - Student")
+        choice = int(input("Enter number: "))
+        #სტატუსის შენახვა
+        if choice == 1:
+            status = "Pupil"
+        else:
+            status = "Student"
+        
+
+        #რეგისტრაციის შედეგების ჩვენება
+        print(" Registration completed!")
+        print("")
+        print("First Name:", first_name)
+        print("Last Name:", last_name)
+        print("ID:", user_id)
+        print("Status:", status)
+        #პროგრამის დასასრული
+        print("")
+        print(first_name ,"Thank you for using GOA Bank!")
+        print("")
+
+
+
+
+
+        datetime - სპეციალური მოდული, რომელიც გამოვიტანეთ პითონის ბიბლიოთეკიდან და გვაძლევს საშუალებას რო გამოვიყენოთ უკვე მომზადებული ბრძანებები დროსთან დაკავშირებით( თვე, რიცხვი.....)
+
+
+        წერტილი - გვეუბნება რო ანუ ამ მოდულის "შიგნით" შევიდეთ და ვნახოთ ამ კონკრეტული მოდულის ერთგვარი კლასებ
+
+        
