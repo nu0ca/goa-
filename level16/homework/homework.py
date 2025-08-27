@@ -3,7 +3,7 @@
 #--> თუ დადებითია დაპრინტეთ 'ეს რიცხვი დადებითი რიცხვია'
 # --> თუ უარყოფითია დაპრინტეთ 'ეს რიცხვი უარყოფითი რიცხვია'
 # --> თუ ნულია დაპრინტეთ 'ეს რიცხვი ნულია'
-number=float(input("enter ypur number:"))
+number=float(input("enter your number:"))
 if number>0:
     print("ეს რიცხვი დადებითი რიცხვია")
 elif number<0:
@@ -22,7 +22,7 @@ else:
 # თუ შემოყვანილი ასაკი უარყოფითია --> დაპრინტეთ 'არასწორი ინფო'
 age=int(input("enter your age:"))
 if age>0 and age <=12:
-    print("ბავსჰვი ხარ")
+    print("ბავშვი ხარ")
 elif age>13 and age<=19:
     print("მოზარდი/თინეიჯერი ხარ")
 elif age>20 and age<=64:
@@ -30,9 +30,10 @@ elif age>20 and age<=64:
 elif age>65 and age<=120:
     print("ხანში შესული ხართ")
 elif age>120:
-#     print("გურუ ან ჯადოქარი")
+    print("გურუ ან ჯადოქარი")
 elif age<0:
     print("არასწორი ინფო")
+ 
 
 
 #davaleba3
