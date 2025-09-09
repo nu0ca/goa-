@@ -125,15 +125,15 @@ chveni_sia=["mariami", 13, 160.7 ,False]
 
 # davaleba11
 #მომხმარებელს შემოატანინეთ ორი რიცხვი და მოახდინეთ ამ ორ რიცხხვზე დღეს ნასწავლი მათემატიკური ოპერაციები(თან დაპრინტეთ რომ ნახოთ შედეგი)
-num1=input("enter your age:")
-num2=input("enter your age:")
+num1=int(input("enter your age:"))
+num2=int(input("enter your age:"))
 print(num1//num2)
 print(num1**num2)
 print(num1%num2)
 
 #davaleba12
 #მომხმარებელს შემოატანინეთ ინტეჯერ ტიპის მონაცემი, შემდეგ შეამოწმეთ, თუ მომხმარებლის შემოყვანილი რიცხვი არის 30 ზე მეტი და 100ზე ნაკლები დაუპრინტე --> "between 30 and 100", თუ ეს რიცხვი არის 100 ზე მეტი და 200 ზე ნაკლები დაუპრინტე --> "between 100 and 200" , სხვა დანარჩენ შემთხვევაში დაუპრინტე  --> "other number"
-num1=input("enter your age:")
+num1=int(input("enter your age:"))
 if num1>30 and num1<100:
     print("between 30 and 100")
 elif num1>100 and num1<200:
