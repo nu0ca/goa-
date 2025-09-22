@@ -26,3 +26,4 @@ print(nene[-1])
 name="irakli"
 print(name[3])
 print(name[-3])
+
