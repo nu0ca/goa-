@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>რეგისტრაცია GOA აკადემიაში</title>
+</head>
+<body>
+    <h1>რეგისტრაცია GOA აკადემიაში</h1>
+    <form>
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">ელ.ფოსტა:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="day">რომელ დღეს აწყობთ კლასს?</label>
+        <select id="day" name="day" required>
+            <option value="monday">ორშაბათი</option>
+            <option value="tuesday">სამშაბათი</option>
+            <option value="wednesday">ოთხშაბათი</option>
+            <option value="thursday">ხუთშაბათი</option>
+            <option value="friday">პარასკევი</option>
+            <option value="saturday">შაბათი</option>
+            <option value="sunday">კვირა</option>
+        </select><br><br>
+
+        <label for="time">როდის აწყობთ კლასს?</label>
+        <input type="time" id="time" name="time" required><br><br>
+
+        <label>სქესი:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">მამრ</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">მდედრ</label><br><br>
+
+        <label for="age">ასაკი:</label>
+        <input type="number" id="age" name="age" min="5" max="100" required><br><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <title>კურსის არჩევა</title>
+</head>
+<body>
+<h2>კურსის არჩევა</h2>
+<form>
+    <p>აირჩიე კურსი:</p>
+    <select name="kursi">
+        <option value="">-- აირჩიე --</option>
+        <option value="programireba">პროგრამირება</option>
+        <option value="eleqtronika">ელექტრონიკა და არდუინო</option>
+        <option value="tamashobis">თამაშების შექმნა</option>
+        <option value="dizaini">გრაფიკული დიზაინი</option>
+        <option value="inglisuri">ინგლისური ენა</option>
+        <option value="mate">მათემატიკა</option>
+        <option value="fullstack">ვებ დეველოპმენტი</option>
+    </select>
+    <p>კვირაში რამდენი დღე გინდა სწავლა:</p>
+    <input type="number" name="dgebis_raodenoba">
+    <p>აირჩიე დღეები:</p>
+    <input type="checkbox" name="days" value="ორშაბათი"> ორშაბათი <br>
+    <input type="checkbox" name="days" value="სამშაბათი"> სამშაბათი <br>
+    <input type="checkbox" name="days" value="ოთხშაბათი"> ოთხშაბათი <br>
+    <input type="checkbox" name="days" value="ხუთშაბათი"> ხუთშაბათი <br>
+    <input type="checkbox" name="days" value="პარასკევი"> პარასკევი <br>
+    <input type="checkbox" name="days" value="შაბათი"> შაბათი <br>
+    <input type="checkbox" name="days" value="კვირა"> კვირა <br>
+    <br>
+    <button type="submit">გადახდა</button>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
