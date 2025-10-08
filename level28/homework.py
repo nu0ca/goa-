@@ -49,7 +49,7 @@ print(week[-2:])
 # 'Python'
 # 'slicing'
 # 'powerful'
-# გამოიყენეთ როგორც დადებითი ასევე უარყოფითი ინდექსები
+# გამოიყენეთ როგორც დადებითი ასევე უარყოფითი ინდექსინგი
 arr='Python slicing is very powerful'
 print(arr[0:6])
 print(arr[-31:-24])
