@@ -35,17 +35,18 @@ for i in range(21):
 #    კენტი რიცხვების რაოდენობა: Y
 n = int(input("შეიყვანე რიცხვი: "))
 
-even_count = 0
-odd_count = 0
+X = 0
+Y= 0
 
 for i in range(n + 1):
     if i % 2 == 0:
-        even_count += 1
+     i=X+1
     else:
-        odd_count += 1
+     i=Y+1
 
-print("ლუწი რიცხვების რაოდენობა:", even_count)
-print("კენტი რიცხვების რაოდენობა:", odd_count)
+
+print("ლუწი რიცხვების რაოდენობა:", X)
+print("კენტი რიცხვების რაოდენობა:", Y)
 
 #davaleba4
 #მოცემულია სია -> [10, 25, 33, 47, 80, 99]  
@@ -68,7 +69,7 @@ even_sum = 0
 for i in range(0, 101):
     if i % 2 == 0:
         print(i)
-        even_sum += i
+        i=even_sum+1
 
 print("ლუწი რიცხვების ჯამია:", even_sum)
 
