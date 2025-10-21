@@ -94,14 +94,6 @@ numbers = [5, 15, 25, 35, 45, 55]
 for i in range(5,55):
     if i % 5 == 0:
         print(i)
-    
-#davaleba9
-# მომხმარებელს შემოატანინე სიტყვა.  
-#    for ციკლით დაბეჭდე ამ სიტყვის თითოეული ასო ცალცალკე.
-word = input("შეიყვანე სიტყვა: ")
-
-for i in range:
-    print(i)
 
 #davaleba10
 #შექმენი ცვლადი -> total = 0  
