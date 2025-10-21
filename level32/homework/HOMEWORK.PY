@@ -54,7 +54,7 @@ print("კენტი რიცხვების რაოდენობა:"
 #    თუ ელემენტი მეტია 50 ზე -> "მეტი 50-ზე" 
 #    თუ ნაკლებია 50 ზე -> "ნაკლები 50-ზე".
 num=[10, 25, 33, 47, 80, 99] 
-for i in num:
+for i in range:
     if i> 50:
         print(str(i) + " მეტია 50-ზე")
     else:
@@ -91,7 +91,7 @@ for i in range(21):
 #    for ციკლით დაუარე სიას და დაბეჭდე მხოლოდ ის ელემენტები, რომლებიც იყოფა 5 ზე.
 numbers = [5, 15, 25, 35, 45, 55]
 
-for i in numbers:
+for i in range:
     if i % 5 == 0:
         print(i)
     
@@ -100,7 +100,7 @@ for i in numbers:
 #    for ციკლით დაბეჭდე ამ სიტყვის თითოეული ასო ცალცალკე.
 word = input("შეიყვანე სიტყვა: ")
 
-for i in word:
+for i in range:
     print(i)
 
 #davaleba10
